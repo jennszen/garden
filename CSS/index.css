@@ -1,0 +1,72 @@
+header{
+    padding: 30px;
+    text-align: center;
+
+ }
+
+ #logo{
+     height: 300px;
+     width: 300px;
+     
+ }
+ nav{
+     position: -webkit-sticky;
+     position: sticky;
+     top: 10px;
+    list-style-type: none;
+     text-align:center;
+     padding: 30px;
+     background-color:#8C9EC1
+ 
+ }
+ nav a:link{
+     text-decoration: wavy;
+     color:#EBF6FF
+ 
+ }
+ nav a:visited{
+     color:#EBF6FF;
+     text-decoration: none;
+ }
+ 
+ nav li{
+     padding: 50px;
+     font-size: 40px;
+     color:#EBF6FF;
+     display: inline;  /* this is so the nav bar is in a line, not as a bullet list*/
+     word-spacing: 100px;
+     font-family: 'Barrio', cursive;
+    
+    }
+
+ nav a:hover{
+     color:#DD8F0C;
+ }
+ 
+ nav a:active{
+     color:#DD8F0C;
+ }
+
+ #hero{
+     height: 600px;
+     width: 95%;
+ }
+ 
+ aside{
+    float:right;
+    width: 46%;
+ }
+
+ aside img{
+     height: 400px;
+     width: 400px;
+ }
+
+ section{
+    padding-left:20px;
+    float:left;
+    width: 50%;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #586E53; 
+ }
