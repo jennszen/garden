@@ -1,0 +1,112 @@
+header{
+    padding: 30px;
+    text-align: center;
+
+ }
+
+ #logo{
+     height: 300px;
+     width: 300px;
+     
+ }
+ nav{
+     position: -webkit-sticky;
+     position: sticky;
+     top: 10px;
+    list-style-type: none;
+     text-align:center;
+     padding: 30px;
+     background-color:#8C9EC1
+ 
+ }
+ nav a:link{
+     text-decoration: wavy;
+     color:#EBF6FF
+ 
+ }
+ nav a:visited{
+     color:#EBF6FF;
+     text-decoration: none;
+ }
+ 
+ nav li{
+     padding: 50px;
+     font-size: 40px;
+     color:#EBF6FF;
+     display: inline;  /* this is so the nav bar is in a line, not as a bullet list*/
+     word-spacing: 100px;
+     font-family: 'Barrio', cursive;
+    
+    }
+
+ nav a:hover{
+     color:#DD8F0C;
+ }
+ 
+ nav a:active{
+     color:#DD8F0C;
+ }
+
+ .video {
+    height: 400px;
+    width: 800px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+
+ }
+
+ section{
+    
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8C9EC1; 
+ }
+
+ .column {
+    float: left;
+    width: 32%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#2D281F; 
+
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  #icon1 {
+      height: 200px;
+      width: 200px;
+  }
+
+  #icon2 {
+    height: 200px;
+    width: 200px;
+}
+
+
+#icon3 {
+    height: 200px;
+    width: 200px;
+}
+
+h2 {
+    text-align:center;
+    width: 100%;
+    
+}

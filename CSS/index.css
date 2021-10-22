@@ -48,8 +48,11 @@ header{
  }
 
  #hero{
-     height: 600px;
-     width: 95%;
+     height: 650px;
+     width: 100%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
  }
  
  aside{
@@ -69,4 +72,18 @@ header{
     text-align:justify;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #586E53; 
+ }
+
+
+ footer{
+    clear:both;
+    position:sticky;
+    width: 100%;
+    height: 150px;
+    background-color: #8C9EC1;
+    text-align: center;
+    padding-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:#EBF6FF;
+    font-size:40px;
  }
