@@ -71,7 +71,9 @@ header{
     width: 50%;
     text-align:justify;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #586E53; 
+    color: #2D281F;
+    font-size: 20px;
+
  }
 
 
@@ -85,5 +87,13 @@ header{
     padding-top: 5px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:#EBF6FF;
-    font-size:40px;
+    font-size:20px;
  }
+
+
+ .fab{
+    font-size: 3rem;
+    margin: 10px;
+    color: #EBF6FF;
+    text-decoration: none;
+}
